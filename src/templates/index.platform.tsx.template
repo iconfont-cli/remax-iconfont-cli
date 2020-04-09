@@ -1,0 +1,26 @@
+/* tslint:disable */
+/* eslint-disable */
+
+import React, { FunctionComponent } from 'react';
+// @ts-ignore
+import Iconfont_#platform# from './#platform#/#platform#';
+
+interface Props {
+  name: '#names#';
+  size?: number;
+  color?: string | string[];
+}
+
+export const #SummaryIcon#: FunctionComponent<Props> = (props) => {
+  const { name, size, color } = props;
+
+  // FIXME: RemaxJs doesn't support pxTransform()
+  // @ts-ignore
+  return <Iconfont_#platform# name={name} size={size} color={color} />;
+};
+
+#SummaryIcon#.defaultProps = {
+  size: #size#,
+};
+
+export default #SummaryIcon#;

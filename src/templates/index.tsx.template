@@ -1,0 +1,16 @@
+/* tslint:disable */
+/* eslint-disable */
+
+import React, { FunctionComponent } from 'react';
+
+interface Props {
+  name: '#names#';
+  size?: number;
+  color?: string | string[];
+}
+
+export const #SummaryIcon#: FunctionComponent<Props> = () => {
+  return null;
+};
+
+export default #SummaryIcon#;

@@ -1,0 +1,12 @@
+/* eslint-disable */
+import { FunctionComponent } from 'react';
+
+interface Props {
+  name: '#names#';
+  size?: number;
+  color?: string | string[];
+}
+
+export declare const #SummaryIcon#: FunctionComponent<Props>;
+
+export default #SummaryIcon#;
