@@ -104,7 +104,7 @@ npx iconfont-remax
 
 -------
 
-在生成代码之前，你可以顺便参考[snapshots目录](https://github.com/fwh1990/remax-iconfont-cli/tree/master/snapshots)自动生成的快照文件。
+在生成代码之前，你可以顺便参考[snapshots目录](https://github.com/iconfont-cli/remax-iconfont-cli/tree/master/snapshots)自动生成的快照文件。
 
 # 使用
 在Page中使用图标
