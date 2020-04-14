@@ -11,7 +11,7 @@ interface Props {
   color?: string | string[];
 }
 
-export const #SummaryIcon#: FunctionComponent<Props> = (props) => {
+export const IconFont: FunctionComponent<Props> = (props) => {
   const { name, size, color } = props;
 
   // FIXME: RemaxJs doesn't support pxTransform()
@@ -19,8 +19,8 @@ export const #SummaryIcon#: FunctionComponent<Props> = (props) => {
   return <Iconfont_#platform# name={name} size={size} color={color} />;
 };
 
-#SummaryIcon#.defaultProps = {
+IconFont.defaultProps = {
   size: #size#,
 };
 
-export default #SummaryIcon#;
+export default IconFont;

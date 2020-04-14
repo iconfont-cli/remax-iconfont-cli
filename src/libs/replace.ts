@@ -18,5 +18,5 @@ export const replaceIsRpx = (content: string, useRpx: boolean) => {
 };
 
 export const replaceSummaryIcon = (content: string, iconName: string) => {
-  return content.replace(/#SummaryIcon#/g, iconName);
+  return content.replace(/IconFont/g, iconName);
 };

@@ -11,7 +11,7 @@ interface Props {
   color?: string | string[];
 }
 
-export const TsxIcon: FunctionComponent<Props> = (props) => {
+export const IconFont: FunctionComponent<Props> = (props) => {
   const { name, size, color } = props;
 
   // FIXME: RemaxJs doesn't support pxTransform()
@@ -19,8 +19,8 @@ export const TsxIcon: FunctionComponent<Props> = (props) => {
   return <Iconfont_alipay name={name} size={size} color={color} />;
 };
 
-TsxIcon.defaultProps = {
+IconFont.defaultProps = {
   size: 20,
 };
 
-export default TsxIcon;
+export default IconFont;

@@ -3,15 +3,15 @@
 import React from 'react';
 import Iconfont_#platform# from './#platform#/#platform#';
 
-export const #SummaryIcon# = (props) => {
+export const IconFont = (props) => {
   const { name, size, color } = props;
 
   // FIXME: RemaxJs doesn't support pxTransform()
   return <Iconfont_#platform# name={name} size={size} color={color} />;
 };
 
-#SummaryIcon#.defaultProps = {
+IconFont.defaultProps = {
   size: #size#,
 };
 
-export default #SummaryIcon#;
+export default IconFont;
