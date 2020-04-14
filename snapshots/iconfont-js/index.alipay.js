@@ -3,7 +3,7 @@
 import React from 'react';
 import Iconfont_alipay from './alipay/alipay';
 
-export const IconFont = (props) => {
+const IconFont = (props) => {
   const { name, size, color } = props;
 
   // FIXME: RemaxJs doesn't support pxTransform()
