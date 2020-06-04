@@ -11,7 +11,7 @@ export interface IconFontProps {
   color?: string | string[];
 }
 
-const IconFont: FunctionComponent<Props> = () => {
+const IconFont: FunctionComponent<IconFontProps> = () => {
   return null;
 };
 
