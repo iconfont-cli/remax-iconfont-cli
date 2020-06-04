@@ -1,3 +1,6 @@
+# 1.1.0
+[feat] 导出IconFont的名称typescript定义`IconFontNames`和`IconFontProps`
+
 # 1.0.0
 **[breaking]** 移除属性 `component_name`，一律使用 IconFont 作为组件名称
 <br>
