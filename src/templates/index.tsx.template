@@ -3,8 +3,10 @@
 
 import React, { FunctionComponent } from 'react';
 
-interface Props {
-  name: '#names#';
+export type IconFontNames = '#names#';
+
+export interface IconFontProps {
+  name: IconFontNames;
   size?: number;
   color?: string | string[];
 }
