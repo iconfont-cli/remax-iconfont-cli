@@ -1,3 +1,6 @@
+# 2.0.0
+更新 alipay 为 ali
+
 # 1.1.0
 [feat] 导出IconFont的名称typescript定义`IconFontNames`和`IconFontProps`
 
