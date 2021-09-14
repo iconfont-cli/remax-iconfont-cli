@@ -1,3 +1,6 @@
+# 2.0.1
+升级 mini-program-iconfont-cli 到 [ 0.55 -> 0.6.1 ]
+
 # 2.0.0
 更新 alipay 为 ali
 
