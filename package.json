@@ -18,7 +18,7 @@
     "fs-extra": "^9.0.0",
     "iconfont-parser": "^1.0.0",
     "mini-program-iconfont-cli": "0.6.1",
-    "minimist": "^1.2.5",
+    "minimist": "^1.2.6",
     "mkdirp": "^1.0.4"
   },
   "devDependencies": {
